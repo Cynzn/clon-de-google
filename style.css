@@ -1,0 +1,177 @@
+*{ 
+    /* Modelo de caja espaciados */
+    margin: 0px;
+    padding: 0px;
+
+    /* configuracion para tipo de letra en toda la pagina */
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 28px;
+    line-height: 27px;
+    justify-content: flex-end;
+}
+
+.foto-perfil{
+    cursor: pointer;
+    background-size: 32px 32px;
+    
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    height: 32px;
+    width: 32px;
+
+}
+.gb_h{
+    height:30px ;
+    font-size: 13px;
+    color: #5f6368;
+    fill: #5f6368;
+    opacity: 1;
+}
+main{
+    /* tamaño del cuadro que tendrá el main */
+    height: 83vh;
+
+    /* configuración del contenedor padre */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    /* usa para quitar los puntitos de las listas */
+    list-style:none ;
+}
+li{
+    padding: 20px 10px;
+}
+
+/* formato del link todo el tiempo */
+a:link{
+    text-decoration: none;
+    color:rgba(0,0,0,.87)
+}
+/* formato que tendrá cuando se le dió click */
+a:visited{
+    text-decoration: none;
+    color:rgba(0,0,0,.87);
+}
+/* formato del link cuando el mouse está encima */
+a:hover{
+   text-decoration: underline;
+}
+
+#nav-right-section{
+height:24px ;
+padding: 25px 10px;
+padding-right: 15px;
+font: 13px/27px Roboto,Arial,sans-serif;
+cursor:pointer;
+line-height:0px;
+vertical-align: middle;
+}
+
+#nav-left-section{
+    padding: 0px 10px;
+}
+
+#footer-listas{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 46px;
+    color: #70757a;
+}
+
+
+footer{
+    background: #f2f2f2;
+}
+
+.pais{
+    padding: 15px 30px;
+    height: 10px;
+    border-bottom:1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer-listas ul li {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+
+}
+
+button{
+    padding: 0 16px;
+    margin: 11px 4 px;
+    /* tamaño de la caja */
+    height: 36px;
+    /* modelo de caja los bordes */
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+
+    background-color: #f8f9fa;
+    color: #3c4043;
+
+    cursor: pointer;
+}
+
+button:hover{
+    /* modelo de caja en borde */
+    border:1px solid #dadce0;
+    /* modelo de caja-sombra */
+    box-shadow: 0 1px rgba(0,0,0,.1);
+
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+#botones{
+    margin-bottom: 10%;
+    height: 58px;
+}
+#secction-buscador{
+    margin: 20px 0px;
+    width: 560px; 
+    height: 41px;
+    min-height: 44px;
+
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+#secction-buscador:hover{
+    /* Modelo de caja: sombras de la caja*/
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+#secction-buscador svg {
+    /*Modelo de caja (espaciados)*/
+    padding: 5px 8px 0px 14px;
+    width: 24px;
+}
+#buscador {
+    /*Modelo de caja (espaciados)*/
+    width: 85%;
+
+    /*configuración visual caja de texto (no visualizar bordes)*/
+    border: none;
+    outline: none;
+}
