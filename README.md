@@ -56,14 +56,14 @@ Aplicarás:
 
 Usa esta lista para saber los requisitos mínimos del proyecto:
 
-### GENERAL
-
-Realizarse de manera individual
-
 ### UI
 - [ ] Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
 - [ ] Aplicar tipos de selectores en CSS.
 - [ ] Sección `Header`, `main`, `footer`
+
+### Aprendizaje
+
+Realizar el clon no fue una tarea fácil para mi ya que era mi primer contacto con el lenguaje de HTML y CSS. Sin embargo, con la ayuda de mis compañeras del bootcamp y mis mentoras me fue posible terminarlo y sentirme orgullosa de mi clon. Espero que puedan intentarlo también y se sientan orgullos@s de sus avances. ¡Mucha suerte y no se rindan!
 
 
 Happy coding!❤
